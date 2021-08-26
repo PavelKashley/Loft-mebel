@@ -1,0 +1,46 @@
+.header {
+    background-color: #313131;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1rem 0rem 1.2rem 0rem;
+    line-height: 1.6rem;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HEADER NAV START*/
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav ul li:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.header__right {
+    display: flex;
+}
+/* HEADER NAV END*/
+
+/* HEADER RIGHT START*/
+.header__right-number, .header__right-delivery {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__right-delivery {
+    margin-left: 3rem;
+}
+
+.header__right-number span {
+    margin-left: 1.1rem;
+}
+
+.header__right-delivery span {
+    margin-left: 1.1rem;
+}
+/* HEADER RIGHT END*/
